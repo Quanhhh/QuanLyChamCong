@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+html,
+
+body,
+
+#root,
+
+.app,
+
+.content{
+  height: 100%;
+  width: 100%;
+  font-family: 'Gentium Plus', sans-serif;
+}
+
+.app{
+  display: flex;
+  position: relative;
+}
+
+::-webkit-scrollbar{
+  width: 10px;
+
+}
+
+/* Track */
+
+::-webkit-scrollbar-track{
+  background: #e0e0e0;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb{
+  background: #888;
+}
+
+/* Handle on Hover */
+::-webkit-scrollbar-track:hover{
+  background: #555;
+}
